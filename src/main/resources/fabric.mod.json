@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "minestardew",
+	"version": "${version}",
+	"name": "MineStardew",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"LamonPaper"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL3.0",
+	"icon": "assets/minestardew/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.besson.minestardew.MineStardew"
+		],
+		"client": [
+			"com.besson.minestardew.MineStardewClient"
+		],
+		"fabric-datagen": [
+			"com.besson.minestardew.MineStardewDataGenerator"
+		]
+	},
+	"mixins": [
+		"minestardew.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
