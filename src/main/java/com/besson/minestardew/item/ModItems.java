@@ -10,7 +10,9 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item test = registerItems("test", new Item(new Item.Settings()));
+    public static final Item lucky_purple_shorts = registerItems("lucky_purple_shorts", new Item(new Item.Settings().maxDamage(110)));
+    public static final Item trimmed_lucky_purple_shorts = registerItems("trimmed_lucky_purple_shorts", new Item(new Item.Settings().maxDamage(138)));
+    public static final Item minestardewicon = registerItems("minestardewicon", new Item(new Item.Settings()));
 
     public static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), new Identifier(MineStardew.MOD_ID, id)), item);

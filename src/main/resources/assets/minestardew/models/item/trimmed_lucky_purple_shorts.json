@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minestardew:item/test"
+    "layer0": "minestardew:item/trimmed_lucky_purple_shorts"
   }
 }
