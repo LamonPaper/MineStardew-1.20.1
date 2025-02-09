@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "iridium_ingot",
+  "ingredient": {
+    "item": "minestardew:iridium_ore"
+  },
+  "result": "minestardew:iridium_ingot"
+}

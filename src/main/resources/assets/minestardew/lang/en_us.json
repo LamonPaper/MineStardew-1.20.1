@@ -1,5 +1,10 @@
 {
   "item.minestardew.lucky_purple_shorts": "Lucky Purple Shorts",
   "item.minestardew.trimmed_lucky_purple_shorts": "Trimmed Lucky Purple Shorts",
-  "itemGroup.minestardew_group_main": "MineStardew-Basic Pack"
+  "itemGroup.minestardew_group_main": "MineStardew-Basic Items",
+  "item.minestardew.iridium_ingot": "Iridium Ingot",
+  "item.minestardew.raw_iridium_ore": "Raw Iridium Ore",
+  "block.minestardew.iridium_block": "Iridium Block",
+  "block.minestardew.raw_iridium_block": "Raw Iridium Block",
+  "block.minestardew.iridium_ore": "Iridium Block"
 }

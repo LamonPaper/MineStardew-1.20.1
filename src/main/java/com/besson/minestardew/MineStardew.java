@@ -1,5 +1,6 @@
 package com.besson.minestardew;
 
+import com.besson.minestardew.block.ModBlocks;
 import com.besson.minestardew.item.ModItemGroups;
 import com.besson.minestardew.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,6 +24,7 @@ public class MineStardew implements ModInitializer {
 
 		ModItems.registerItems();
 		ModItemGroups.registerGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

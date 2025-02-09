@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minestardew:iridium_block"
+    }
+  ],
+  "result":{
+    "item": "minestardew:iridium_ingot",
+    "count": 9
+  }
+}

@@ -1,6 +1,7 @@
 package com.besson.minestardew.item;
 
 import com.besson.minestardew.MineStardew;
+import com.besson.minestardew.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -26,6 +27,11 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.trimmed_lucky_purple_shorts);
                             entries.add(ModItems.lucky_purple_shorts);
+                            entries.add(ModItems.raw_iridium_ore);
+                            entries.add(ModItems.iridium_ingot);
+                            entries.add(ModBlocks.IRIDIUM_BLOCK);
+                            entries.add(ModBlocks.RAW_IRIDIUM_BLOCK);
+                            entries.add(ModBlocks.IRIDIUM_ORE);
                         }).build());
     }
 }

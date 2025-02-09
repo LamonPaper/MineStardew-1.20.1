@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minestardew:iridium_ingot"
+    }
+  },
+  "result": {
+    "item": "minestardew:iridium_block"
+  }
+}

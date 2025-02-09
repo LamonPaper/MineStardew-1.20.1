@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minestardew:raw_iridium_ore"
+    }
+  },
+  "result": {
+    "item": "minestardew:raw_iridium_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minestardew:raw_iridium_block"
+    }
+  ],
+  "result":{
+    "item": "minestardew:raw_iridium_ore",
+    "count": 9
+  }
+}
